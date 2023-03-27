@@ -6,6 +6,8 @@ body {
     padding: 0;
     background-color: #000;
     color: #00ff00;
+    /* center */
+    text-align: center;
 }
 
 #mainContent {
@@ -13,6 +15,23 @@ body {
     text-align: left;
     max-width: 800px;
     margin: 0 auto;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 2rem 0;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.team-member {
+    width: 300px;
+    padding: 1rem;
+    border: 1px solid #00ff00;
+    border-radius: 5px;
+    max-width: 200px;
 }
 
 header {
